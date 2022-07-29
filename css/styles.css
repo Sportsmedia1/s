@@ -1,0 +1,236 @@
+body {
+  background-color: #090910;
+  color: white;
+  margin: inherit;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+
+
+.center-h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.center-p {
+  margin-top: 0;
+  position: relative;
+  left: 110px;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+}
+
+.f-span {
+  color: #00D7FF;
+}
+
+.p-span {
+  color: #EAE509;
+
+}
+
+.l-span {
+  color: #ECB390;
+}
+
+
+
+table {
+  text-align: center;
+  color: white;
+  background-color: #2C3639;
+  border-collapse: collapse;
+  width: 95%;
+  margin-bottom: 10px;
+
+}
+td {
+  font-size: 20px;
+  border: 1px solid;
+  border-color: #222831;
+}
+
+h1 {
+  color: #DEA057;
+  font-size: 55px;
+}
+
+footer {
+  position: relative;
+  margin-top: 100%;
+  bottom: 0;
+  width: 100%;
+}
+
+thead {
+  background-color: #222831;
+  height: 70px;
+}
+
+.buttom-div {
+  margin: 0;
+  background-color: #2C3333;
+  width: 100%;
+  height: 70px;
+}
+
+.p-c {
+  margin: 10px auto auto auto;
+  display: inline-block;
+}
+
+/*.sticker {
+  width: 250px;
+  height: 250px;
+}
+
+.sticker1 {
+  width: 250px;
+  height: 250px;
+  margin-bottom: inherit;
+  margin-bottom: 125px;
+  position: absolute;
+  margin-right: 200px;
+}*/
+
+.special {
+  width: 500px;
+  height: 500px;
+  margin-top: inherit;
+  margin-top: 60px;
+}
+
+
+#div {
+  background-color: #212121;
+  height: inherit;
+  height: 620px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.picture-img {
+  width: 100%;
+}
+
+/* Button Genetrator */
+
+button {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button:focus,
+button:hover {
+  color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+
+.league-code {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.league-code:focus,
+.league-code:hover {
+  color: #fff;
+}
+
+.league-code:focus:after,
+.league-code:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.league-code:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
